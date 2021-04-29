@@ -3,7 +3,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+.right {
+  float: right;
+  color: rgb(180, 0, 0);
+}
 .save-note {
   display: none;
 }
@@ -24,14 +27,16 @@ html, body {
 
 .note-textarea {
   resize: none;
-  height: calc(100% - 63px);
+  overflow: hidden;
   padding-top: 15px;
+  font-size: 24px;
 }
 
 .note-title {
-  height: 50px;
+  overflow:visible;
+  height: 75px;
   margin-top: 13px;
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 .note-title:read-only, .note-textarea:read-only {
