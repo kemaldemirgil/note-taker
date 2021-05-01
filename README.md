@@ -10,7 +10,7 @@ This is a simple **Note Taker** app that allows users to add their notes to a gl
 ### Usage:
 1. Please click on the `START` button to navigate to the notes page,
 2. Enter a desired title and description,
-3. Click on the save button on the upper right corner of the page,
+3. Click on the save button in the upper right corner of the page,
 4. To edit your note simply click on the title of your note on the left panel, then edit on the input area
 
 ### Demo:
@@ -18,11 +18,11 @@ This is a simple **Note Taker** app that allows users to add their notes to a gl
 ![](resources/note-demo.gif)
 
 ### Issues:
-If you get accross any issues, plase simply leave a ticket and I would love to get to is as soon as possible
+If you get to accross any issues, please simply leave a ticket and I would love to get to is as soon as possible.\
 ![](resources/issues-demo.gif)
 
 ### Improvements:
-> There are some bugs that could be eventually fixed however, the front-end of the application wasn't the main focus in this project. The console gives and `404 Not Found` error when loading the page to find the `'favicon'`. I believe that's coming from `Heroku` itself, I could've added a simple `favicon` icon to get rid of it but I simply thought its not neceserriy.
+> There are some bugs that could be eventually fixed however, the front-end of the application wasn't the main focus in this project. The console gives and `404 Not Found` error when loading the page to find the `'favicon'`. I believe that's coming from `Heroku` itself, I could've added a simple `favicon` icon to get rid of it, but I simply thought it's not necessary.
 
 ### License:
 Copyright © Kemal Demirgil. All rights reserved.
