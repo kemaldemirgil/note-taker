@@ -24,6 +24,27 @@ app.get("/api/notes", (req, res) => {
     });
 });
 
+app.post("/api/notes", (req, res) => {
+    const newNote = req.body;
+    const noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    const noteId = (noteList.length).toString();
+    console.log(newNote);
+    newNote.id = noteId;
+    noteList.push(newNote);
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+    res.json(noteList);
+})
+
+app.delete("/api/notes/:id", (req, res) => {
+    let noteList = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let noteId = (req.params.id).toString();
+    noteList = noteList.filter(selected => {
+        return selected.id != noteId;
+    })
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteList));
+    res.json(noteList);
+})
+
 
 
 
