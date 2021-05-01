@@ -1,0 +1,71 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+}
+body {
+    background-image: url(../../../img/funky-lines.png);
+}
+
+.kd {
+    margin-top: 22rem;
+    font-size: x-small;
+    color: #806de9;
+}
+
+.love {
+    font-size: small;
+    margin-top: 3%;
+}
+
+.jumbotron {
+    background-color: #9889ee;
+    border: 3px solid #806de9;
+    box-shadow: 4px 4px 10px #b3dbd2;
+}
+
+.btn {
+    animation: grow 1000ms infinite;
+    color: black;
+    font-weight: bolder;
+    padding: 1% 3% 1% 3%;
+}
+
+.btn:hover {
+    color: black;
+    animation: grow 300ms infinite;
+    text-shadow: 2px 2px 6px white;
+}
+
+
+.navbar-custom {
+    background-color: #9889ee;
+    font-weight: bolder;
+    border-bottom: 3px solid #806de9;
+    box-shadow: 4px 4px 10px #b3dbd2;
+}
+
+.navbar-custom a {
+    font-size: 26px;
+}
+
+.navbar-custom a:hover {
+    text-shadow: 2px 2px 6px white;
+}
+
+
+@keyframes grow {
+    0% {
+        box-shadow: 2px 2px 10px #b3dbd2;
+        border: 2px solid #b3dbd2;
+        background-color: #d4dddb;
+    }
+    50% {
+        box-shadow: 3px 3px 60px #d9a4f1;
+        border: 2px solid #806de9;
+        background-color: #e5caf1;
+    }
+    100% {
+        box-shadow: 2px 2px 10px #b3dbd2;
+        border: 2px solid #b3dbd2;
+        background-color: #d4dddb;
+    }
+}

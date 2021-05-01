@@ -1,3 +1,25 @@
+* {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.cont {
+    background-image: url(../../../img/arches.png);
+}
+.navbar-custom {
+  background-color: #9889ee;
+  font-weight: bolder;
+  border-bottom: 3px solid #806de9;
+  box-shadow: 4px 4px 10px #b3dbd2;
+}
+
+.navbar-custom a {
+  font-size: 26px;
+}
+
+.navbar-custom a:hover {
+  text-shadow: 2px 2px 6px white;
+}
+
 html, body {
   height: 100%;
   margin: 0;
