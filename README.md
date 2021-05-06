@@ -1,5 +1,5 @@
-![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/note-taker?color=yellow&label=Javascript&logo=javascript)
-![GitHub](https://img.shields.io/github/license/kemaldemirgil/note-taker?color=cyan&label=License&logo=github&logoColor=cyan)
+![GitHub top language](https://img.shields.io/github/languages/top/kemaldemirgil/remember-me?color=yellow&label=Javascript&logo=javascript)
+![GitHub](https://img.shields.io/github/license/kemaldemirgil/remember-me?color=cyan&label=License&logo=github&logoColor=cyan)
 ![npm](https://img.shields.io/npm/v/npm?color=red&logo=npm)
 ![node-current](https://img.shields.io/node/v/jest)
 ![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&logo=heroku&up_color=green&up_message=Online&url=https%3A%2F%2Fsalty-earth-55682.herokuapp.com%2F)
@@ -30,4 +30,4 @@ If you get to accross any issues, please simply leave a ticket and I would love 
 
 ### License:
 Copyright © Kemal Demirgil. All rights reserved.
-Licensed under the [MIT](https://github.com/kemaldemirgil/note-taker/blob/main/LICENSE) license.
+Licensed under the [MIT](https://github.com/kemaldemirgil/remember-me/blob/main/LICENSE) license.
