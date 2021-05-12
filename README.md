@@ -2,7 +2,6 @@
 ![GitHub](https://img.shields.io/github/license/kemaldemirgil/remember-me?color=cyan&label=License&logo=github&logoColor=cyan)
 ![npm](https://img.shields.io/npm/v/npm?color=red&logo=npm)
 ![node-current](https://img.shields.io/node/v/jest)
-![Website](https://img.shields.io/website?down_color=red&down_message=Offline&label=Website&logo=heroku&up_color=green&up_message=Online&url=https%3A%2F%2Fsalty-earth-55682.herokuapp.com%2F)
 # Note Taker
 
 ### About:
