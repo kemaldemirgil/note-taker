@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/v/npm?color=red&logo=npm)
 ![node-current](https://img.shields.io/node/v/jest)
 # Note Taker
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://salty-earth-55682.herokuapp.com/)
 ### About:
 This is a simple **Note Taker** app that allows users to add their notes to a globally open server(Heroku). The user can later edit, delete and post new notes if desired. The point of this application was to use `Express.js` and get used to creating servers and running them on `Heroku`. During the construction of this application, I've used 3 dependencies and additionally `nodemon` in my *devDependencies* to run my code on `Node.js`.
 
@@ -17,7 +17,6 @@ This is a simple **Note Taker** app that allows users to add their notes to a gl
 4. To edit your note simply click on the title of your note on the left panel, then edit on the input area
 
 ### Demo:
-##### Link: https://salty-earth-55682.herokuapp.com/
 ![](resources/note-demo.gif)
 
 ### Issues:
